@@ -17,11 +17,11 @@ type CoreController interface {
 }
 
 type core struct {
-	cli *client.MopidyClient
+	cli client.MopidyClient
 }
 
 // New returns a new mopidy controller
-func New(cli *client.MopidyClient) CoreController {
+func New(cli client.MopidyClient) CoreController {
 	return &core{cli}
 }
 

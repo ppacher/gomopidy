@@ -71,10 +71,10 @@ type PlaybackController interface {
 }
 
 type playback struct {
-	cli *client.MopidyClient
+	cli client.MopidyClient
 }
 
-func NewPlaybackController(cli *client.MopidyClient) PlaybackController {
+func NewPlaybackController(cli client.MopidyClient) PlaybackController {
 	return &playback{cli}
 }
 

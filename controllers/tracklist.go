@@ -44,11 +44,11 @@ type TrackListController interface {
 }
 
 type tracklist struct {
-	cli *client.MopidyClient
+	cli client.MopidyClient
 }
 
 // NewTracklistController returns a new tracklist controller for the given mopidy client
-func NewTracklistController(cli *client.MopidyClient) TrackListController {
+func NewTracklistController(cli client.MopidyClient) TrackListController {
 	return &tracklist{cli}
 }
 
