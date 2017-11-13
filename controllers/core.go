@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/homebot/gomopidy/client"
+import "github.com/ppacher/gomopidy/client"
 
 type CoreController interface {
 	// Playback returns a new PlaybackController

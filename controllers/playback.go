@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/homebot/gomopidy/client"
-	"github.com/homebot/gomopidy/models"
+	"github.com/ppacher/gomopidy/client"
+	"github.com/ppacher/gomopidy/models"
 )
 
 // PlayOptions for PlaybackController.Play()

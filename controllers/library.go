@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/homebot/gomopidy/models"
+import "github.com/ppacher/gomopidy/models"
 
 type LibraryController interface {
 	Browse(uri string) ([]models.Ref, error)
